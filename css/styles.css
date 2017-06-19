@@ -1,0 +1,83 @@
+body {
+	overflow-x:hidden;
+}
+
+/* The fancy font replication */
+
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v13/dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v13/EsvMC5un3kjyUhB9ZEPPwg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+* {
+	font-family: "Lato", sans-serif;
+    color: #747704;
+    font-weight: 300;
+}
+
+/*Personal logo formatting */
+.logo {
+    margin: 20px 0 0 0;
+    padding: 0 15px 7px 15px;
+}
+
+/*customer header formating */
+h1 {
+    font-size: 49px;
+    font-weight: 100;
+    margin: 20px 0 0 0;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+}
+
+/*custom text formats*/
+.text-muted {
+	color: #bcbbbb;	
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+/*horizontal divider*/
+hr {
+    border: 1px solid #bcb;
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+
+/*hyperlink color - same as the rest of the text*/
+a {
+    font-weight: 100;
+    color: #747704;
+    font-size: 11px;
+}
+
+/*margins between rows */
+.row-space {
+ margin: 10px 0 0 0;
+}
+
+/*adjust all images to this size - might look goofy if originals are not fitting - need manual re-creation */
+.custom_image>img {
+    width: 360px;
+    height: 200px;
+}
+
