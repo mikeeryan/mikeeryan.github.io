@@ -2,14 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/normalize.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="images/me_32.png" rel="shortcut icon">
     <script src="./js/jquery-3.2.1.min.js.download" type="text/javascript"></script>
     <script src="./js/bootstrap.min.js.download" type="text/javascript"></script>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
 
     <title>Michael Eryan's Portfolio</title>
 
@@ -23,7 +25,7 @@
         </div>
         <div class="col-md-6 text-right text-uppercase">
           <h1 class="text-thin">Michael Eryan</h1>
-          <h4>Front-end Ninja</h4>
+          <h4>Data Analyst</h4>
         </div>
       </div>
       <div class="row">
@@ -96,7 +98,20 @@
         <div class="col-md-4 row-space">
           <div class="custom_image"><img class="img-responsive center-block" src="images/dashboard.jpg" alt="Dashboard" data-toggle="modal" data-target="#Plotly"></div>
           <h3 class="text-uppercase">Dashboard by Plotly</h3>
-          <a href="https://plot.ly/dashboard/michaeleryan:24/view" target="_blank">Prosper Loan Data</a>
+          <a href="https://plot.ly/dashboard/michaeleryan:24/view" target="_blank">Prosper Loan Data Dashboard</a>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <div class="col-md-6 row-space">
+          <div class="custom_image"><img class="img-responsive center-block" src="images/tableau.png" alt="Tableau" data-toggle="modal" data-target="#Tableau"></div>
+          <h3 class="text-uppercase">Tableau</h3>
+          <a href="https://public.tableau.com/profile/michael.eryan#!/vizhome/Final_project_V2/exploration" target="_blank">Prosper Loan Data Exploration Story</a>
+        </div>
+        <div class="col-md-6 row-space">
+          <div class="custom_image"><img class="img-responsive center-block" src="images/pythonlogo.jpg" alt="Python3" data-toggle="modal" data-target="#Python3"></div>
+          <h3 class="text-uppercase">Python3</h3>
+          <a href="https://github.com/mikeeryan/python3" target="_blank">Misc Functions</a>
         </div>
       </div>
 
@@ -111,7 +126,7 @@
                 </div>
                 <div class="modal-body">
                     <p>Exploring variables and relationships using summary statistics and plots.</p>
-                    <p>Languages: Python, R and SAS
+                    <p>Languages: Python2, R and SAS
                     </p>
                 </div>
                 <div class="modal-footer">
@@ -132,7 +147,7 @@
                 <div class="modal-body">
                     <p>Summary statistics and plots using an experiment with playing cards. Demonstration of the Central Limit Theorem.
                     </p>
-                    <p>Language: Python</p>
+                    <p>Language: Python2</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -172,7 +187,7 @@
                 <div class="modal-body">
                     <p>Data wrangling, cleaning and analyzing in MongoDB.
                     </p>
-                    <p>Language: Python and MongoDB</p>
+                    <p>Language: Python2 and MongoDB</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -192,7 +207,7 @@
                 <div class="modal-body">
                     <p>Machine learning: identifying persons of interest using Enron employee financial and e-mail data.
                     </p>
-                    <p>Language: Python</p>
+                    <p>Language: Python2</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -272,7 +287,7 @@
                 <div class="modal-body">
                     <p>A dashboard showing an overview of the Prosper loan data.
                     </p>
-                    <p>Language: Python and Plotly </p>
+                    <p>Language: Python2 and Plotly </p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -282,6 +297,45 @@
     </div>
     <!-- end of Plotly modal -->
 
+    <!-- Tableau Modal -->
+    <div class="modal fade" id="Tableau" tabindex="-1" role="dialog" aria-labelledby="Tableau" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Prosper Loan Data Tableau Story</h4>
+                </div>
+                <div class="modal-body">
+                    <p>A Tableau story with a thorough exploration of Prosper Loan Data.
+                    </p>
+                    <p>Language: Python2 and Tableau </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of Tableau modal -->
+
+    <!-- Python3 Modal -->
+    <div class="modal fade" id="Python3" tabindex="-1" role="dialog" aria-labelledby="Python3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Python3 Code</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Ad-hoc functions in Python3.
+                    </p>
+                    <p>Language: Python3 </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of Tableau modal -->
 
   <br>
   <br>

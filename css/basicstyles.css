@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.title {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.box {
+  min-height: 150px;
+}
+
+/* from style tag in the page */
+
+  a#menu svg {
+	width: 40px;
+	fill: #000;
+  }
+  nav, main {
+	padding: 1em;
+	box-sizing: border-box;
+  }
+  main {
+	width: 100%;
+	height: 100%;
+  }
+
+/* * Off-canvas layout styles.*/
+
+/* Since we check mobile-first, by default, the drawer is hidden. */
+  nav {
+	width: 200px; /* not to big to avoid overflowing the viewport */
+	height: 100%;
+	position: absolute; /*w/o absolute just shows blank */
+	/* This trasform moves the drawer off canvas. */
+	-webkit-transform: translate(-300px, 0); /* javascript? */
+	transform: translate(-300px, 0);
+	/* Optionally, we animate the drawer. */
+	transition: transform 0.3s ease;
+  }
+  nav.open {
+	-webkit-transform: translate(0, 0);
+	transform: translate(0, 0);
+  }
+
+ /*aren't these two conditions the same? */
+  /* If there is enough space (> 600px), we keep the drawer open all the time. */
+@media (min-width: 600px) {
+
+	/* We open the drawer. */
+	nav {
+	  position:relative; /*relative works fine, with absolute does not work well */
+	  -webkit-transform: translate(0, 0);
+	  transform: translate(0, 0);
+	}
+
+	/* We use Flexbox on the parent. */
+	body {
+	  display: -webkit-flex;
+	  display: flex;
+	  -webkit-flex-flow: row nowrap;
+	  flex-flow: row nowrap;
+	}
+
+	main {
+	  width: auto;
+	  /* Flex-grow streches the main content to fill all available space. */
+	  flex-grow: 1;
+	}
+}
+
+  /* If there is space (> 600px), we keep the drawer open by default. */
+  /* removed: 
+@media (min-width: 600px) {
+	  	main > #menu:after {
+	  content: 'The drawer stays open if width > 600px';
+	}
+	main p, nav p {
+	  text-decoration: line-through;
+	}
+  }
+*/
+
+/* Iframe options */
+iframe:focus { 
+    outline: none;
+}
+
+iframe[seamless] { 
+    display: block;
+}
+
+  
+.dark_blue {
+  background-color: #2A457A;
+  color: #efefef;
+}
+
+.light_blue {
+  background-color: #099DD9;
+}
+
+.green {
+  background-color: #0C8542;
+}
+
+.lime {
+  background-color: rgb(179, 210, 52);
+}
+
+.seafoam {
+  background-color: rgb(77, 190, 161);
+}
+
+.red {
+  background-color: #EC1D3B;
+}
+
+.orange {
+  background-color: #F79420;
+}

@@ -1,10 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>My App</title>
-</head>
-<body>
-  <h1 class="title">My App</h1>
-  </div>
-</body>
-</html>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Michael Eryan's Homepage</title>
+    <link rel="stylesheet" type="text/css" href="./css/basicstyles.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles_sidenav.css">
+
+  </head>
+
+  <body>
+  <!-- two elements nav and main only -->
+    <nav id="drawer" class="dark_blue">
+      <p>Michael Eryan's Personal Homepage</p>
+      <div>
+        <a href="bio.html" target="mainframe">
+          Bio
+        </a>
+        <a href="https://www.linkedin.com/in/michael-eryan" target="_blank"">
+          Linkedin
+        </a>
+        <a href="https://goo.gl/bYSDny" target="_blank"">
+          Resume (Word)
+        </a>
+        <a href="portfolio.html" target="mainframe">
+          Portfolio
+        </a>
+        <a href="https://github.com/mikeeryan" target="_blank"">
+          Github
+        </a>
+        <a href="mailto:mike.m.eryan@gmail.com" target="_blank">
+          E-mail
+        </a>
+      </div>
+    </nav>
+
+    <main>
+      <a id="menu">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"></path>
+        </svg>
+      </a>
+      <!-- show the bio page here? -->
+      <iframe src="bio.html" name="mainframe" allowTransparency="true" scrolling="yes" style="border:none;" width=100% height=100% align=middle marginheight=0 marginwidth=0>
+      </iframe>
+    </main>
+
+
+    <script>
+    /* * Function to open the drawer when the menu icon is clicked. */
+      var menu = document.querySelector('#menu');
+      var main = document.querySelector('main');
+      var drawer = document.querySelector('#drawer');
+
+      menu.addEventListener('click', function(e) {
+        drawer.classList.toggle('open');
+        e.stopPropagation();
+      });
+      main.addEventListener('click', function() {
+        drawer.classList.remove('open');
+      });
+
+    </script>
+
+    </body></html>
