@@ -17,7 +17,10 @@ var bio = {
 };
 
 var certs = {
-	"cert" : ["SAS Institute Certifications:",
+	"cert" : ["Udacity:",
+		"&nbsp;	Data Analyst Nanodegree, (2017)",
+		"",
+		"SAS Institute Certifications:",
 		"&nbsp;	SAS Certified Statistical Business Analyst Using SAS 9: Regression and Modeling, (2015)",
 		"&nbsp;	SAS Certified Advanced Programmer for SAS 9, (2011)",
 		"&nbsp;	SAS Certified Base Programmer for SAS 9, (2010)",
