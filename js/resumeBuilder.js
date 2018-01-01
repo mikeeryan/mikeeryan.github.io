@@ -35,28 +35,40 @@ var certs = {
 
 var work = {
 	"jobs": [
-		{
-			"employer": "Western Union",
-			"title": "Senior Statistical Analyst - Global Analytics and Insights ",
-			"location": "Englewood, Colorado",
-			"datesWorked": "2011-2017",
-			"description": "\u2022 Built advanced programs in SAS using 'data' step, 'proc sql,' and the macro language. "+
-				"<br> \u2022 Developed complex SQL scripts in both Oracle and Netezza RDBMS to produce reports and prepare data for modeling."+
-				"<br> \u2022 Designed SQL pass-through queries using SAS macro language to efficiently process large amounts of data in Oracle and Netezza. "+
-				"<br> \u2022 Took the initiative to build new professional partnerships and learn new technical skills to install, configure and maintain statistical software and to fill in the existing gap between the department's developers and the IT department."+
-				"<br> \u2022 Performed Windows Server 2012 R2 and SAS 9.4 Business Intelligence platform administration and Redhat Linux and RStudio Server Pro configuration and administration."+
-				"<br> \u2022 Lead in terms of predictive modeling, using logistic regression in SAS and machine learning techniques in R to support the digital business team in creating predictive models for marketing campaigns and risk assessments. "+
-				"<br> \u2022 Developed and implemented an in-house A/B Testing methodology, using 3rd party software to successfully design and analyze marketing, pricing, direct mail and email test-and-learn campaigns. "+
-				"<br> \u2022 Built highly accurate predictive models using linear and logistical regressions for customer segmentation and profiling, marketing campaigns and risk assessment. "+
-				"<br> \u2022 Summarized, presented and interpreted key findings in both written and verbal form to colleagues and superiors to improve decision making abilities. "+
-				"<br> \u2022 Mentored junior analysts and other colleagues on the use of new software, programming and statistical foundations to increase both individual and team performance. "+
-				"<br> \u2022 Managed a vendor competition to choose the best forecasting software including creating a new forecasting process for the global business channels that allowed for more informed strategic decision making."+
-				"<br> \u2022 Worked in collaboration with an industry leading vendor to develop and manage the global growth decomposition tool, Marketing Mix Model."+
-				"<br> \u2022 Played a key role managing the projects that required collaboration with IT and business partners, the acquisition of new hardware and software and the training and outsourcing of processes to a number of offshore teams."+
-				"<br> \u2022 Correctly analyzed various pricing and marketing campaigns through the use of advanced statistical techniques. "
-		}
-		]
-};
+				{
+					"employer": "Charles Schwab",
+					"title": "Senior Manager - Database Marketing Campaign Analyst - Data-Driven Communications - Analytics & Business Insight ",
+					"location": "Lone Tree, Colorado",
+					"datesWorked": "2017-Present",
+					"description": "\u2022 Envisioned a new data processing methodology to ensure accuracy, efficiency, transparency, flexibility and scalability using SAS macros and workflows.  "+
+						"<br> \u2022 Built dozens of modularized SAS macros using data step and SQL to support large scale cash product projects that had a high impact to Schwab's bottom line. "+
+						"<br> \u2022 Acted as an internal consultant to business partners to assess their decision-making, reporting and marketing needs, and recommended appropriate metrics, either from existing reports or from newly developed reports."+
+						"<br> \u2022 Researched, analyzed and leveraged data from a wide range of internal and external sources to generate accurate and comprehensive direct marketing lists. "+
+						"<br> \u2022 Developed and applied a deep and broad understanding of the underlying business & marketing issues that the reports and analyses were intended to address, in order to ensure their accuracy & relevance. "
+				},
+
+				{
+					"employer": "Western Union",
+					"title": "Senior Statistical Analyst - Global Analytics and Insights ",
+					"location": "Englewood, Colorado",
+					"datesWorked": "2011-2017",
+					"description": "\u2022 Built advanced programs in SAS using 'data' step, 'proc sql,' and the macro language. "+
+						"<br> \u2022 Developed complex SQL scripts in both Oracle and Netezza RDBMS to produce reports and prepare data for modeling."+
+						"<br> \u2022 Designed SQL pass-through queries using SAS macro language to efficiently process large amounts of data in Oracle and Netezza. "+
+						"<br> \u2022 Took the initiative to build new professional partnerships and learn new technical skills to install, configure and maintain statistical software and to fill in the existing gap between the department's developers and the IT department."+
+						"<br> \u2022 Performed Windows Server 2012 R2 and SAS 9.4 Business Intelligence platform administration and Redhat Linux and RStudio Server Pro configuration and administration."+
+						"<br> \u2022 Lead in terms of predictive modeling, using logistic regression in SAS and machine learning techniques in R to support the digital business team in creating predictive models for marketing campaigns and risk assessments. "+
+						"<br> \u2022 Developed and implemented an in-house A/B Testing methodology, using 3rd party software to successfully design and analyze marketing, pricing, direct mail and email test-and-learn campaigns. "+
+						"<br> \u2022 Built highly accurate predictive models using linear and logistical regressions for customer segmentation and profiling, marketing campaigns and risk assessment. "+
+						"<br> \u2022 Summarized, presented and interpreted key findings in both written and verbal form to colleagues and superiors to improve decision making abilities. "+
+						"<br> \u2022 Mentored junior analysts and other colleagues on the use of new software, programming and statistical foundations to increase both individual and team performance. "+
+						"<br> \u2022 Managed a vendor competition to choose the best forecasting software including creating a new forecasting process for the global business channels that allowed for more informed strategic decision making."+
+						"<br> \u2022 Worked in collaboration with an industry leading vendor to develop and manage the global growth decomposition tool, Marketing Mix Model."+
+						"<br> \u2022 Played a key role managing the projects that required collaboration with IT and business partners, the acquisition of new hardware and software and the training and outsourcing of processes to a number of offshore teams."+
+						"<br> \u2022 Correctly analyzed various pricing and marketing campaigns through the use of advanced statistical techniques. "
+				}
+			]
+		};
 
 var education = {
 	"schools": [
