@@ -4,7 +4,7 @@ var bio = {
 	"contacts": {
 		"email": "mike.m.eryan@gmail.com",
 		"github": "mikeeryan",
-		"location": "Parker, CO"
+		"location": "Centennial, CO"
 	},
 	"picture": "images/Michael_Eryan_200.jpg",
 	"welcomeMessage": "Master's educated data analysis professional with extensive experience providing analytical solutions "+
@@ -19,6 +19,7 @@ var bio = {
 var certs = {
 	"cert" : ["Udacity:",
 		"&nbsp;	Data Analyst Nanodegree, (2017)",
+		"&nbsp;	Machine Learning Engineer Nanodegree, (2018)",
 		"",
 		"SAS Institute Certifications:",
 		"&nbsp;	SAS Certified Statistical Business Analyst Using SAS 9: Regression and Modeling, (2015)",
@@ -85,6 +86,11 @@ var education = {
 			"title": "Data Analyst Nanodegree",
 			"completed": "2017",
 			"url": "https://www.udacity.com/course/data-analyst-nanodegree--nd002"
+		},
+		{ "school": "Udacity",
+			"title": "Machine Learning Engineer Nanodegree",
+			"completed": "2018",
+			"url": "https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t"
 		}
 	]
 };
@@ -96,6 +102,12 @@ var projects = {
 			"datesWorked": "2017",
 			"description": "Online portfolio in the style of front-end ninjas."+
 				"<br> Including projects in exploratory data analysis, statistics, machine learning, A/B testing etc.",
+			"url": "https://mikeeryan.github.io/portfolio.html"
+		},
+		{
+			"title": "Machine Learning Engineer Portfolio",
+			"datesWorked": "2018",
+			"description": "Including projects in machine learning - supervised learning, unsupervised learning, deep learning, reinforcement learning.",
 			"url": "https://mikeeryan.github.io/portfolio.html"
 		}
 	]
