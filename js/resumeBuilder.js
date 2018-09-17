@@ -18,8 +18,8 @@ var bio = {
 
 var certs = {
 	"cert" : ["Udacity:",
-		"&nbsp;	Data Analyst Nanodegree, (2017)",
 		"&nbsp;	Machine Learning Engineer Nanodegree, (2018)",
+		"&nbsp;	Data Analyst Nanodegree, (2017)",
 		"",
 		"SAS Institute Certifications:",
 		"&nbsp;	SAS Certified Statistical Business Analyst Using SAS 9: Regression and Modeling, (2015)",
