@@ -107,8 +107,7 @@ var projects = {
 		{
 			"title": "Data Analyst Portfolio",
 			"datesWorked": "2017",
-			"description": "Online portfolio in the style of front-end ninjas."+
-				"<br> Including projects in exploratory data analysis, statistics, machine learning, A/B testing etc.",
+			"description": "Including projects in exploratory data analysis, statistics, machine learning, A/B testing etc.",
 			"url": "https://mikeeryan.github.io/portfolio.html"
 		}
 	]
