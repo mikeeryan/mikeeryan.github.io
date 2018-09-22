@@ -72,6 +72,19 @@ var work = {
 		};
 
 var education = {
+	"onlineCourses": [
+		{ "school": "Udacity",
+			"title": "Machine Learning Engineer Nanodegree",
+			"completed": "2018",
+			"url": "https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t"
+		},
+		{ "school": "Udacity",
+			"title": "Data Analyst Nanodegree",
+			"completed": "2017",
+			"url": "https://www.udacity.com/course/data-analyst-nanodegree--nd002"
+		}
+	],
+
 	"schools": [
 		{
 		"name" : "University of Colorado Denver",
@@ -80,34 +93,22 @@ var education = {
 		"major" : "Economics",
 		"url" : "http://www.ucdenver.edu/academics/colleges/CLAS/Departments/economics/Programs/MasterofArts/Pages/Overview.aspx"
 		}
-	],
-	"onlineCourses": [
-		{ "school": "Udacity",
-			"title": "Data Analyst Nanodegree",
-			"completed": "2017",
-			"url": "https://www.udacity.com/course/data-analyst-nanodegree--nd002"
-		},
-		{ "school": "Udacity",
-			"title": "Machine Learning Engineer Nanodegree",
-			"completed": "2018",
-			"url": "https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t"
-		}
 	]
 };
 
 var projects = {
 	"projects": [
 		{
+			"title": "Machine Learning Engineer Portfolio",
+			"datesWorked": "2018",
+			"description": "Including projects in machine learning - supervised learning, unsupervised learning, deep learning, reinforcement learning.",
+			"url": "https://mikeeryan.github.io/portfolio.html"
+		},
+		{
 			"title": "Data Analyst Portfolio",
 			"datesWorked": "2017",
 			"description": "Online portfolio in the style of front-end ninjas."+
 				"<br> Including projects in exploratory data analysis, statistics, machine learning, A/B testing etc.",
-			"url": "https://mikeeryan.github.io/portfolio.html"
-		},
-		{
-			"title": "Machine Learning Engineer Portfolio",
-			"datesWorked": "2018",
-			"description": "Including projects in machine learning - supervised learning, unsupervised learning, deep learning, reinforcement learning.",
 			"url": "https://mikeeryan.github.io/portfolio.html"
 		}
 	]
