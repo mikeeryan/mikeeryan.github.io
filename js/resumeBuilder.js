@@ -60,7 +60,6 @@ var work = {
 						"<br> \u2022 Performed Windows Server 2012 R2 and SAS 9.4 Business Intelligence platform administration and Redhat Linux and RStudio Server Pro configuration and administration."+
 						"<br> \u2022 Lead in terms of predictive modeling, using logistic regression in SAS and machine learning techniques in R to support the digital business team in creating predictive models for marketing campaigns and risk assessments. "+
 						"<br> \u2022 Developed and implemented an in-house A/B Testing methodology, using 3rd party software to successfully design and analyze marketing, pricing, direct mail and email test-and-learn campaigns. "+
-						"<br> \u2022 Built highly accurate predictive models using linear and logistical regressions for customer segmentation and profiling, marketing campaigns and risk assessment. "+
 						"<br> \u2022 Summarized, presented and interpreted key findings in both written and verbal form to colleagues and superiors to improve decision making abilities. "+
 						"<br> \u2022 Mentored junior analysts and other colleagues on the use of new software, programming and statistical foundations to increase both individual and team performance. "+
 						"<br> \u2022 Managed a vendor competition to choose the best forecasting software including creating a new forecasting process for the global business channels that allowed for more informed strategic decision making."+
