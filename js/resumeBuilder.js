@@ -17,7 +17,12 @@ var bio = {
 };
 
 var certs = {
-	"cert" : ["Udacity:",
+	"cert" : [
+		"DataCamp:",
+		"&nbsp; Data Engineer with Python Track, (2020)",
+		"&nbsp; Data Scientist with R Track, (2019)",
+		"",
+		"Udacity:",
 		"&nbsp;	Machine Learning Engineer Nanodegree, (2018)",
 		"&nbsp;	Data Analyst Nanodegree, (2017)",
 		"",
@@ -38,9 +43,25 @@ var work = {
 	"jobs": [
 				{
 					"employer": "Charles Schwab",
-					"title": "Senior Manager - Database Marketing Campaign Analyst - Data-Driven Communications - Analytics & Business Insight ",
+					"title": "Senior Manager - Statistical Analyst – Data, Analytics & Insight ",
 					"location": "Lone Tree, Colorado",
-					"datesWorked": "2017-Present",
+					"datesWorked": "2019-Present",
+					"description": "\u2022 Scoped analytical projects including determining optimal methods, identifying resources and assets needed, developing execution plans, and conducting analysis.  "+
+						"<br> \u2022 Worked together with business partners to gather, refine and document business requirements. "+
+						"<br> \u2022 Used efficient modular programming techniques in SQL, SAS, Python and R to develop tools and foundation necessary to produce accurate and reproducible results. "+
+						"<br> \u2022 Built predictive models using logistic regression and decision trees to find client segments optimal for planned marketing campaigns. "+
+						"<br> \u2022 Practiced and advocated efficient programming and testing techniques, version control and documentation to peers and mentees. "+
+						"<br> \u2022 Communicated and interpreted analytical results to business partners in order to guide them in making actionable decisions. "+
+						"<br> \u2022 Worked closely with business intelligence analysts to develop data structures necessary for dashboard visualizations for the end users. "+
+						"<br> \u2022 Used Microsoft Excel and PowerPoint to present key findings to team mates and partners. "+
+						"<br> \u2022 Demonstrated strong leadership and communication skills needed to build effective partnerships both with colleagues and business partners. "
+				},
+				
+				{
+					"employer": "Charles Schwab",
+					"title": "Senior Manager - Database Marketing Campaign Analyst - Analytics & Business Insight ",
+					"location": "Lone Tree, Colorado",
+					"datesWorked": "2017-2019",
 					"description": "\u2022 Envisioned a new data processing methodology to ensure accuracy, efficiency, transparency, flexibility and scalability using SAS macros and workflows.  "+
 						"<br> \u2022 Built dozens of modularized SAS macros using data step and SQL to support large scale cash product projects that had a high impact to Schwab's bottom line. "+
 						"<br> \u2022 Acted as an internal consultant to business partners to assess their decision-making, reporting and marketing needs, and recommended appropriate metrics, either from existing reports or from newly developed reports."+
