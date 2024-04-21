@@ -18,6 +18,15 @@ var bio = {
 
 var certs = {
 	"cert" : [
+		"Google:",
+		"&nbsp; Google Project Management Certificate, (2024)",
+		"&nbsp; Professional Machine Learning Engineer Certificate, (2023)",
+		"",	
+		"Coursera:",
+		"&nbsp; Specialization: Preparing for Google Cloud Certification: Machine Learning Engineer, (2023)",
+		"&nbsp; Specialization: Machine Learning on Google Cloud, (2023)",
+		"&nbsp; Specialization: From Data to Insights with Google Cloud, (2021)",
+		"",		
 		"DataCamp:",
 		"&nbsp; Data Engineer with Python Track, (2020)",
 		"&nbsp; Data Scientist with R Track, (2019)",
@@ -27,6 +36,7 @@ var certs = {
 		"&nbsp;	Data Analyst Nanodegree, (2017)",
 		"",
 		"SAS Institute Certifications:",
+		"&nbsp;	SAS Advanced Analytics: Establishing Causal Inferences: Propensity Score Matching, Heckman's Two-Stage Model, Interrupted Time Series, and Regression Discontinuity Models, (2020)",
 		"&nbsp;	SAS Certified Statistical Business Analyst Using SAS 9: Regression and Modeling, (2015)",
 		"&nbsp;	SAS Certified Advanced Programmer for SAS 9, (2011)",
 		"&nbsp;	SAS Certified Base Programmer for SAS 9, (2010)",
@@ -43,9 +53,25 @@ var work = {
 	"jobs": [
 				{
 					"employer": "Charles Schwab",
+					"title": "Senior Manager - Analytics Consultant - Strategy, Data & Analytics",
+					"location": "Lone Tree, Colorado",
+					"datesWorked": "2021-Present",
+					"description": "\u2022 Consulted business partners, gathered requirements and translated them into accurate and efficient technical solutions.  "+
+						"<br> \u2022 Worked daily in an Agile Kanban team using Atlassian tools like Jira and Confluence. "+
+						"<br> \u2022 Developed and maintained a large portfolio of automated and self-service reports for trading, pricing & billing and compliance teams. "+
+						"<br> \u2022 Contributed to the Cloud Migration both as a developer (converted code from Oracle/Teradata to BigQuery) and as a project manager by writing over a dozen guides and Confluence pages to allow my team to work efficiently and meet the deadlines. "+
+						"<br> \u2022 Built new automated testing modules in SAS for regression and mock testing that greatly reduced time spent on QA and data validation. "+
+						"<br> \u2022 Transformed SAS codebase for the highly visible Advisor Services Benchmarking Survey initiative to make the processes modularized and data driven which will benefit our team for many years. "+
+						"<br> \u2022 Delivered robust statistical analysis that allowed the product owners to make a strategic decision with long term positive implications for the Benchmarking Survey. "+
+						"<br> \u2022 Built a new predictive model using internal and third-party data for the Fraud Risk Management team which allowed them to better understand and strategize their tasks. "+
+						"<br> \u2022 Always led by example and practiced what I preached by writing clean, maintainable and robust production code to minimize technical debt and production support.  " +
+						"<br> \u2022 Trained colleagues to build and re-build processes for accuracy, efficiency, and transparency to improve the quality of all our projects.  " 
+				},		
+				{
+					"employer": "Charles Schwab",
 					"title": "Senior Manager - Statistical Analyst – Data, Analytics & Insight ",
 					"location": "Lone Tree, Colorado",
-					"datesWorked": "2019-Present",
+					"datesWorked": "2019-2021",
 					"description": "\u2022 Scoped analytical projects including determining optimal methods, identifying resources and assets needed, developing execution plans, and conducting analysis.  "+
 						"<br> \u2022 Worked together with business partners to gather, refine and document business requirements. "+
 						"<br> \u2022 Used efficient modular programming techniques in SQL, SAS, Python and R to develop tools and foundation necessary to produce accurate and reproducible results. "+
