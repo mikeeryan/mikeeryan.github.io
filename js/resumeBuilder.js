@@ -18,6 +18,13 @@ var bio = {
 
 var certs = {
 	"cert" : [
+		"Scrum Alliance:",
+		"&nbsp; Certified ScrumMaster (CSM), (2024)",
+		"",	
+		"Atlassian:",
+		"&nbsp; Certified Associate - Jira Software Essentials Certification, (2024)",
+		"&nbsp; Certified Associate - Jira Software Board Configuration, (2024)",
+		"",	
 		"Google:",
 		"&nbsp; Google Project Management Certificate, (2024)",
 		"&nbsp; Professional Machine Learning Engineer Certificate, (2023)",
