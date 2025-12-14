@@ -18,6 +18,12 @@ var bio = {
 
 var certs = {
 	"cert" : [
+		"Microsoft:",
+		"&nbsp; GitHub Copilot Certificate, (2025)",
+		"",
+		"Tableau:",
+		"&nbsp; Tableau Certified Data Analyst, (2025)",
+		"",			
 		"Scrum Alliance:",
 		"&nbsp; Certified ScrumMaster (CSM), (2024)",
 		"",	
@@ -28,7 +34,7 @@ var certs = {
 		"Google:",
 		"&nbsp; Google Project Management Certificate, (2024)",
 		"&nbsp; Professional Machine Learning Engineer Certificate, (2023)",
-		"",	
+		"",
 		"Coursera:",
 		"&nbsp; Specialization: Preparing for Google Cloud Certification: Machine Learning Engineer, (2023)",
 		"&nbsp; Specialization: Machine Learning on Google Cloud, (2023)",
